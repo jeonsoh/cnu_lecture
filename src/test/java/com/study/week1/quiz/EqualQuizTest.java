@@ -71,6 +71,6 @@ public class EqualQuizTest {
 		String s1 = new String("Hello");
 		String s2 = new String("Hello");
 		
-		assertThat(s1 == s2, is(true));
+		assertThat(s1.equals(s2), is(true));
 	}
 }
